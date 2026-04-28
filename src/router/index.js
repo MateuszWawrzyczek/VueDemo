@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import StopsList from "../components/StopsList.vue";
 import StopDetails from "../components/StopsDepartures.vue";
+import Merge2Stops from "../components/Merge2Stops.vue";
 
 const routes = [
   {
@@ -14,6 +15,10 @@ const routes = [
   {
     path: "/przystanki/:id",
     component: StopDetails,
+  },
+  {
+    path: "/admin/polacz-przystanki",
+    component: Merge2Stops,
   },
 ];
 

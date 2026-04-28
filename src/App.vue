@@ -9,6 +9,7 @@ import "@/styles/stops.css"
 
       <nav>
         <router-link to="/przystanki">Przystanki</router-link>
+        <router-link to="/admin/polacz-przystanki">Połącz przystanki</router-link>
       </nav>
     </header>
 
@@ -22,6 +23,7 @@ import "@/styles/stops.css"
 .header {
   padding: 16px;
   border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
 }
 
 nav a {
