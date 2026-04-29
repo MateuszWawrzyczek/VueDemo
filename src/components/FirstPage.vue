@@ -20,7 +20,9 @@ function increment() {
   </div>
 </template>
 
-<style scoped>
+<!-- <style> dla całej aplikacji -->
+
+<style scoped> 
 .container {
   max-width: 400px;
   margin: 60px auto;
