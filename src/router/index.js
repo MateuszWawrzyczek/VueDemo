@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import StopsList from "../components/StopsList.vue";
 import StopDetails from "../components/StopsDepartures.vue";
 import Merge2Stops from "../components/Merge2Stops.vue";
+import FirstPage from "../components/FirstPage.vue";
 
 const routes = [
   {
@@ -20,6 +21,10 @@ const routes = [
     path: "/admin/polacz-przystanki",
     component: Merge2Stops,
   },
+  {
+    path: "/pierwsza-strona",
+    component: FirstPage
+  }
 ];
 
 const router = createRouter({
